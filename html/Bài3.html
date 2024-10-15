@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 3</title>
+   <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ac4c13;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8f720d;
+    text-shadow: -5px -6px 6px #f3f1ef;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+nav {
+    background-color:white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c96600;
+    margin: 0 40px;
+    font-size: 20px;
+    text-align: left;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.form-container {
+    width: 70%;
+    border-right: 1px solid rgb(231, 228, 228);
+    padding-bottom: 20px;
+}
+
+.form-container h2 {
+    color: #bf8348;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+.form-container p {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #b59b3b;
+    margin-bottom: 40px;
+    word-spacing: 3px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.form-container input[type="text"], 
+.form-container input[type="email"], 
+.form-container input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.form-container button {
+    background-color: #7e8921;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    padding-left: 60px;
+}
+.sidebar1{
+    width: 80%;
+    background-color: #f2efe9;
+    border: 2px solid #f2efe9;
+    border-radius: 20px 20px 0 0; 
+
+}
+.sidebar h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #996633;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.sidebar ul {
+    list-style-type:square ;
+    color: #c96600;
+    padding-left: 100px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color:  #c96600;
+}
+
+.sidebar p {
+    font-size: 14px;
+}
+.img1{
+    width: 150px;
+    padding: 15px;
+    border: 1px solid rgb(216, 213, 213);
+    float: left;
+    margin-right: 10px; 
+    float: left;
+}
+.sidebar2{
+    width: 80%;
+    display: flex; 
+    align-items: center;
+}
+.sidebar2 p{
+    font-size: 20px;
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e0e0e0;
+    font-size: 12px;
+    width: 100%;
+    height: 40px;
+   
+}
+footer p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    word-spacing: 4px;
+    margin-top: 8px;
+}
+   </style>
+</head>
+<body>
+    <header>
+        <h1>AUTUMN TRAVEL COMPANY</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Order</a>
+    </nav>
+    <img src="/img/Bai3/baner.jpg" alt="" width="100%" >
+
+    <div class="banner"></div>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Sign up for membership benefits</h2>
+            <p>Our philosophical values are transparency, respect, formality and responsibility. Our stimulus is your enthusiasm. Our motto is your satisfaction.</p>
+
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="E-mail">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Retype password">
+
+            <button>SIGN ME UP</button>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar1">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#">Make your Own Tour</a></li>
+                <li><a href="#">Maldives Tours</a></li>
+                <li><a href="#">Nature & Adventure</a></li>
+                <li><a href="#">Readymade Tours</a></li>
+                <li><a href="#">Europe Tours</a></li>
+                <li><a href="#">Russia Tours</a></li>
+            </ul>
+        </div>
+        <h3 style="letter-spacing: 3px;">More info</h3>
+    <div class="sidebar2">
+        <p>Our purpose is the client who gives to us the opportunity to serve and to make known the reality around the world.</p>
+    </div>
+    </div>
+    </div>
+
+    <footer>
+       <p> &copy; 2017 Software Engineering Department | Test Date: 16 Sept 2017</p>
+    </footer>
+</body>
+</html>
